@@ -1,0 +1,73 @@
+body{
+    background-color: #313131;
+
+}
+
+.login_form{
+    width: 400px;
+    margin: auto;
+    margin-top: 80px;
+}
+
+.window{
+    box-shadow: 1px 1px 1px #ccc;
+    background-color: #696969;
+    padding: 30px;
+    border-radius: 20px;
+}
+
+@font-face {
+    font-family: liberation-sans;
+    src: url(fonts/LiberationSans-Regular.ttf);
+}
+
+.window_head{
+    color: #d4d4d4;
+}
+
+.liberation-sans{
+    font-family: liberation-sans;
+    color: #d4d4d4;
+}
+
+.credential > label{
+    color: #d4d4d4;
+    font-family: liberation-sans;
+    display: block;
+}
+
+.credential > input{
+    background-color: #313131;
+    border-color: #d4d4d4;
+    border-radius: 5px;
+    color: #d4d4d4;
+    font-family: liberation-sans;
+    width: 97%;
+    height: 30px;
+    padding-left: 10px;
+    outline: 0;
+    margin-bottom: 10px;
+    
+}
+
+/* The following seven lines were extracted from https://selleo.com/til/posts/xhgzlfgcql-a-way-to-make-autofilled-inputs-background-transparent */
+input:-webkit-autofill,
+input:-webkit-autofill:hover, 
+input:-webkit-autofill:focus, 
+input:-webkit-autofill:active  {
+  transition: background-color 5000s;
+  -webkit-text-fill-color: #fff !important;
+}
+
+.credential > button{
+    margin-top: 20px;
+    width: 101%;
+    height: 35px;
+    background-color: #141414;
+    border-color: #d4d4d4;
+    border-radius: 10px;
+    color: #d4d4d4;
+    font-family: liberation-sans;
+    font-size: 16px;
+    border: 0;
+}
