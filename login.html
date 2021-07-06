@@ -1,5 +1,6 @@
 <!DOCTYPE html>
 <html lang="en">
+
 <head>
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
@@ -9,31 +10,32 @@
     <link rel="stylesheet" href="style.css">
 
 </head>
+
 <body>
-    
-    <form class = "login_form" action="">
-        <div class="window">
-            <div class="liberation-sans">
-                <h2>Login</h2>
+    <main>
+        <form class="login_form" action="./home.html">
+            <div class="window">
+                <div class="liberation-sans">
+                    <h2>Login</h2>
+                </div>
+                <hr color="#D3E2E5">
+
+                <div class="credential">
+                    <label>Email</label>
+                    <input name="email" type="email" required>
+                </div>
+
+                <div class="credential">
+                    <label>Senha</label>
+                    <input name="senha" type="password" required>
+                </div>
+
+                <div class="credential">
+                    <button type="submit">Entrar</button>
+                </div>
             </div>
-            <hr color="#d4d4d4">
-
-            <div class="credential">
-                <label>Email</label>
-                <input name="email" type="email" placeholder="Email" required>
-            </div>
-
-            <div class="credential">
-                <label>Senha</label>
-                <input name="senha" type="password" placeholder="Senha" required>
-            </div>
-
-            <div class="credential">
-                <button type="submit">Continuar</button>
-            </div>
-
-        </div>
-    </form>
-
+        </form>
+    </main>
 </body>
+
 </html>
