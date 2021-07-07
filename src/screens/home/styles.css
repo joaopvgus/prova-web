@@ -1,0 +1,46 @@
+menu {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  height: 96px;
+  background-color: #15c3d6;
+  margin-top: 0;
+  margin-bottom: 0;
+}
+
+menu > h1 {
+  font-size: 40px;
+  line-height: 42px;
+  color: #ffffff;
+}
+
+menu > div {
+  margin-right: 8px;
+}
+
+menu button {
+  font-weight: 800;
+  font-size: 18px;
+  line-height: 26px;
+  color: #ffffff;
+  border-radius: 20px;
+  border: 2px solid #ffffff;
+  background-color: transparent;
+  padding: 10px 16px;
+  margin: 0 8px;
+}
+
+main{
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+main > h2 {
+  font-weight: 600;
+  font-size: 18px;
+  line-height: 28px;
+  text-align: center;
+  color: #8fa7b3;
+  margin: 40px 0;
+}
