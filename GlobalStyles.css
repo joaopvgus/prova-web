@@ -51,6 +51,8 @@ body {
     border: 1px solid #d3e2e5;
     box-sizing: border-box;
     border-radius: 20px;
+    padding-left: 20px;
+    outline: 0;
     font-size: 20px;
 }
 
