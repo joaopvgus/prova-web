@@ -41,10 +41,12 @@ menu {
     justify-content: center;
     align-items: center;
     padding-top: 96px;
+    margin-bottom: 64px;
   }
 
 .main_login {
   padding-top: 0 !important;
+  margin-bottom: 0 !important;
 }
   
   main > h2 {
