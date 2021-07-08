@@ -1,11 +1,16 @@
 menu {
+  position: fixed;
+  top: 0;
+  left: 0;
   display: flex;
   justify-content: space-between;
   align-items: center;
+  width: calc(100% - 64px);
   height: 96px;
   background-color: #15c3d6;
   margin-top: 0;
   margin-bottom: 0;
+  padding: 0 32px;
 }
 
 menu > h1 {
@@ -30,10 +35,12 @@ menu button {
   margin: 0 8px;
 }
 
-main{
+main {
   display: flex;
+  flex-direction: column;
   justify-content: center;
   align-items: center;
+  padding-top: 96px;
 }
 
 main > h2 {
@@ -43,4 +50,51 @@ main > h2 {
   text-align: center;
   color: #8fa7b3;
   margin: 40px 0;
+}
+
+main .container {
+  width: 708px;
+  padding: 64px 80px 80px 80px;
+  left: 414px;
+  top: 108px;
+  background: #ffffff;
+  border: 1px solid #d3e2e5;
+  box-sizing: border-box;
+  border-radius: 20px;
+}
+
+.card + .card {
+  margin-top: 32px;
+}
+
+.card {
+  width: 100%;
+  flex-direction: row;
+  align-items: center;
+  justify-content: center;
+  background: linear-gradient(149.97deg, #e6f7fb 8.13%, #ffffff 92.67%);
+  border: 1px solid #b3dae2;
+  box-sizing: border-box;
+  border-radius: 20px;
+  padding: 16px;
+}
+.card > div {
+  display: inline-block;
+}
+
+.img-dog {
+  width: 94px;
+  height: 94px;
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-position: center;
+  border-radius: 20px;
+}
+
+.card p {
+  font-size: 18px;
+  line-height: 28px;
+  font-weight: bold;
+  color: #5C8599;
+  margin: 0;
 }
