@@ -41,6 +41,7 @@ main {
   justify-content: center;
   align-items: center;
   padding-top: 96px;
+  margin-bottom: 64px;
 }
 
 main > h2 {
@@ -69,15 +70,16 @@ main .container {
 
 .card {
   width: 100%;
+  display: flex;
   flex-direction: row;
   align-items: center;
-  justify-content: center;
   background: linear-gradient(149.97deg, #e6f7fb 8.13%, #ffffff 92.67%);
   border: 1px solid #b3dae2;
   box-sizing: border-box;
   border-radius: 20px;
   padding: 16px;
 }
+
 .card > div {
   display: inline-block;
 }
@@ -95,6 +97,25 @@ main .container {
   font-size: 18px;
   line-height: 28px;
   font-weight: bold;
-  color: #5C8599;
+  color: #5c8599;
   margin: 0;
+}
+
+.card h3 {
+  font-size: 14px;
+  line-height: 22px;
+  color: #8fa7b3;
+  margin: 0;
+}
+
+.card button {
+  padding: 10px 20px;
+  background: #37c77f;
+  border-radius: 20px;
+  border: 0;
+  color: #ffffff;
+}
+
+.card .content {
+  margin-left: 16px;
 }
