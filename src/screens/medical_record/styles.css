@@ -1,0 +1,58 @@
+main {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  padding-top: 96px;
+  margin-bottom: 64px;
+}
+
+main > h2 {
+  font-weight: 600;
+  font-size: 18px;
+  line-height: 28px;
+  text-align: center;
+  color: #8fa7b3;
+  margin: 40px 0;
+}
+
+main .container {
+  width: 708px;
+  padding: 64px 80px 80px 80px;
+  left: 414px;
+  top: 108px;
+  background: #ffffff;
+  border: 1px solid #d3e2e5;
+  box-sizing: border-box;
+  border-radius: 20px;
+  margin-top: 64px;
+}
+
+.card-message {
+  position: relative;
+  background: linear-gradient(154.16deg, #edfff6 7.85%, #ffffff 91.03%);
+  border: 1px solid #a1e9c5;
+  box-sizing: border-box;
+  border-radius: 20px;
+  padding: 16px;
+}
+
+.card-message + .card-message {
+  margin-top: 32px;
+}
+
+.card-message p {
+  font-weight: 600;
+  font-size: 18px;
+  line-height: 28px;
+  color: #37c77f;
+  margin: 0;
+}
+
+.card-message h3 {
+  font-weight: 300;
+  text-align: right;
+  font-size: 16px;
+  line-height: 24px;
+  margin: 24px 0 0 0;
+}
