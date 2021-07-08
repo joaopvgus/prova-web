@@ -81,3 +81,40 @@ input:-webkit-autofill:active {
     font-size: 18px;
     line-height: 26px;
 }
+
+menu {
+    position: fixed;
+    top: 0;
+    left: 0;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    width: calc(100% - 64px);
+    height: 96px;
+    background-color: #15c3d6;
+    margin-top: 0;
+    margin-bottom: 0;
+    padding: 0 32px;
+  }
+  
+  menu > h1 {
+    font-size: 40px;
+    line-height: 42px;
+    color: #ffffff;
+  }
+  
+  menu > div {
+    margin-right: 8px;
+  }
+  
+  menu button {
+    font-weight: 800;
+    font-size: 18px;
+    line-height: 26px;
+    color: #ffffff;
+    border-radius: 20px;
+    border: 2px solid #ffffff;
+    background-color: transparent;
+    padding: 10px 16px;
+    margin: 0 8px;
+  }
