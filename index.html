@@ -13,7 +13,7 @@
 
 <body>
     <main>
-        <form class="login_form" action="src/screens/home/index.html">
+        <form id="login" method="post" class="login_form">
             <div class="window">
                 <div class="liberation-sans">
                     <h2>Login</h2>
@@ -21,8 +21,8 @@
                 <hr color="#D3E2E5">
 
                 <div class="credential">
-                    <label>Email</label>
-                    <input name="email" type="email" required>
+                    <label>Nome de Usuário</label>
+                    <input name="email" type="text" required>
                 </div>
 
                 <div class="credential">
@@ -36,6 +36,8 @@
             </div>
         </form>
     </main>
+    <script src="https://code.jquery.com/jquery-2.2.1.min.js"></script>
+    <script src='./index.js'></script>
 </body>
 
 </html>
