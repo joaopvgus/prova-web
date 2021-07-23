@@ -91,3 +91,24 @@ const formatDate = (date) => {
 }
 
 document.getElementById('date').innerText = formatDate(date)
+
+window.onload = function(e) {
+  e.preventDefault();
+  const myHeaders = new Headers()
+  myHeaders.append('api_key', 'cadu')
+
+  fetch('https://petstore.swagger.io/v2/pet/2/',
+  {
+    method: "GET",
+    headers: myHeaders,
+  }
+  )
+    .then(response => {
+      response.json().then(data => {
+        console.log(data);
+      })
+    })
+    .catch(error => {
+      console.log(error);
+    })
+}
